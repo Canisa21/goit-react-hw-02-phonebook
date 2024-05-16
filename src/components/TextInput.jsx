@@ -5,7 +5,7 @@ export const TextInput = ({ onChange, onSubmit, value }) => {
     return (
     <div>  
         <form onSubmit={onSubmit}> 
-                 <p>Contacts</p>
+                 <p>Name:</p>
                     <input
                     type="text"
                     name="name"
@@ -16,7 +16,7 @@ export const TextInput = ({ onChange, onSubmit, value }) => {
                     required
                     onChange={onChange}
                 />
-                 <p>Number</p>
+                 <p>Number:</p>
                 <div>
                     <input
                     type="tel"
