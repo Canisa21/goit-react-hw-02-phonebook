@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+button {
+    width: 100px;
+    height: 20px;
+    font-size:small;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    background-color: rgba(128, 128, 239, 0.447);
+    border-radius: 100px;
+    border: 1px;
+    text-align: center;
+    margin: 10px;
+}
+
+form {
+    border: 1px solid;
+    padding: 10px;
+}
